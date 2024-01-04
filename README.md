@@ -17,11 +17,27 @@ This extension to @react-navigation/bottom-tabs introduces a seamless solution f
 
 ## Setup
 
-Add this line to `package.json` in `dependencies` section:
-
-```json
-"@swanstack/react-navigation-bottom-tabs": "git+ssh://git@github.com:swanstack/react-navigation-bottom-tabs.git"
+```sh
+yarn add @swanstack/react-navigation-bottom-tabs
 ```
+
+#### Dependencies
+
+This library needs these dependencies to be installed in your project before you can use it:
+
+```bash
+yarn add react-native-reanimated react-native-gesture-handler
+```
+
+Using Expo?
+
+```bash
+npx expo install react-native-reanimated react-native-gesture-handler
+```
+
+> **React Native Gesture Handler** needs extra steps to finalize its installation, please follow their [installation instructions](https://docs.swmansion.com/react-native-gesture-handler/docs/installation). Please **make sure** to wrap your App with `GestureHandlerRootView`.
+>
+> **React Native Reanimated v2** needs extra steps to finalize its installation, please follow their [installation instructions](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started).
 
 ## Usage
 

@@ -24,66 +24,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swanstack/react-navigation-bottom-tabs-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "@swanstack/react-navigation-bottom-tabs-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@expo/webpack-config": ^19.0.0
-    "@react-navigation/bottom-tabs": ^6.5.11
-    "@react-navigation/native": ^6.1.9
-    "@react-navigation/native-stack": ^6.9.17
-    babel-loader: ^8.1.0
-    babel-plugin-module-resolver: ^5.0.0
-    expo: ~49.0.15
-    expo-status-bar: ~1.6.0
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-native: 0.72.6
-    react-native-reanimated: ~3.3.0
-    react-native-safe-area-context: 4.6.3
-    react-native-screens: ~3.22.0
-    react-native-web: ~0.19.6
-  languageName: unknown
-  linkType: soft
-
-"@swanstack/react-navigation-bottom-tabs@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@swanstack/react-navigation-bottom-tabs@workspace:."
-  dependencies:
-    "@commitlint/config-conventional": ^17.0.2
-    "@evilmartians/lefthook": ^1.5.0
-    "@react-native/babel-preset": ^0.74.0
-    "@react-native/eslint-config": ^0.72.2
-    "@react-navigation/bottom-tabs": ^6.5.11
-    "@react-navigation/native": ^6.1.9
-    "@release-it/conventional-changelog": ^5.0.0
-    "@types/color": ^3.0.6
-    "@types/jest": ^28.1.2
-    "@types/react": ~17.0.21
-    "@types/react-native": 0.70.0
-    commitlint: ^17.0.2
-    del-cli: ^5.0.0
-    eslint: ^8.4.1
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.0.0
-    jest: ^28.1.1
-    prettier: ^2.0.5
-    react: 18.2.0
-    react-native: 0.72.6
-    react-native-builder-bob: ^0.23.2
-    react-native-reanimated: ^3.6.1
-    release-it: ^15.0.0
-    typescript: ^5.0.2
-  peerDependencies:
-    "@react-navigation/bottom-tabs": 6.x.x
-    "@react-navigation/native": "*"
-    react: "*"
-    react-native: "*"
-    react-native-reanimated: 3.x.x
-  languageName: unknown
-  linkType: soft
-
 "@ampproject/remapping@npm:^2.2.0":
   version: 2.2.1
   resolution: "@ampproject/remapping@npm:2.2.1"
@@ -3811,6 +3751,66 @@ __metadata:
   checksum: 7d3aef54e17c1073101cb64d953157c19d62a40e261a30923fa1ee337b049c5f29cc47b1f0c477880f42b5659848ba9ab897607ac8ea4acd5c30ddcfac57fca6
   languageName: node
   linkType: hard
+
+"@swanstack/react-navigation-bottom-tabs-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "@swanstack/react-navigation-bottom-tabs-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@expo/webpack-config": ^19.0.0
+    "@react-navigation/bottom-tabs": ^6.5.11
+    "@react-navigation/native": ^6.1.9
+    "@react-navigation/native-stack": ^6.9.17
+    babel-loader: ^8.1.0
+    babel-plugin-module-resolver: ^5.0.0
+    expo: ~49.0.15
+    expo-status-bar: ~1.6.0
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-native: 0.72.6
+    react-native-reanimated: ~3.3.0
+    react-native-safe-area-context: 4.6.3
+    react-native-screens: ~3.22.0
+    react-native-web: ~0.19.6
+  languageName: unknown
+  linkType: soft
+
+"@swanstack/react-navigation-bottom-tabs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@swanstack/react-navigation-bottom-tabs@workspace:."
+  dependencies:
+    "@commitlint/config-conventional": ^17.0.2
+    "@evilmartians/lefthook": ^1.5.0
+    "@react-native/babel-preset": ^0.74.0
+    "@react-native/eslint-config": ^0.72.2
+    "@react-navigation/bottom-tabs": ^6.5.11
+    "@react-navigation/native": ^6.1.9
+    "@release-it/conventional-changelog": ^5.0.0
+    "@types/color": ^3.0.6
+    "@types/jest": ^28.1.2
+    "@types/react": ~17.0.21
+    "@types/react-native": 0.70.0
+    commitlint: ^17.0.2
+    del-cli: ^5.0.0
+    eslint: ^8.4.1
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.0.0
+    jest: ^28.1.1
+    prettier: ^2.0.5
+    react: 18.2.0
+    react-native: 0.72.6
+    react-native-builder-bob: ^0.23.2
+    react-native-reanimated: ^3.6.1
+    release-it: ^15.0.0
+    typescript: ^5.0.2
+  peerDependencies:
+    "@react-navigation/bottom-tabs": 6.x.x
+    "@react-navigation/native": "*"
+    react: "*"
+    react-native: "*"
+    react-native-reanimated: 3.x.x
+  languageName: unknown
+  linkType: soft
 
 "@szmarczak/http-timer@npm:^5.0.1":
   version: 5.0.1
